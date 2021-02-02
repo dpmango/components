@@ -1,0 +1,14 @@
+{
+  "name": "compontents",
+  "version": "1.0.0",
+  "description": "usefull components for your next frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Khmelevskoy",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^5.0.8"
+  }
+}
