@@ -1,0 +1,45 @@
+// Dashboard
+.dash
+  &__nav
+    position: relative
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 20px 0 0
+    padding: 0 0 2px
+    &::after
+      display: inline-block
+      content: ' '
+      position: absolute
+      z-index: 1
+      bottom: 0px
+      left: 0
+      right: 0
+      background: #E4E4E4
+      height: 2px
+    li
+      flex: 0 0 auto
+      display: inline-block
+      margin-right: auto
+      &:last-child
+        margin-right: 0
+    a
+      position: relative
+      display: inline-block
+      padding: 5px
+    &--width-auto
+      width: auto
+      li
+        margin-right: 50px
+    li
+      &.is-active
+        // some active styles
+
+  &__nav-highlighter
+    position: absolute
+    z-index: 2
+    bottom: 0px
+    left: 0
+    height: 2px
+    background: $colorPrimary
+    transition: all .25s $ease
